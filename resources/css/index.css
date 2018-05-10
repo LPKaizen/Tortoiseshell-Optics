@@ -10,3 +10,38 @@ html {
   height: auto;
   margin: auto;
 }
+
+.headersection {
+  margin-top: 1rem;
+  width: 100%;
+  background-color: cadetblue;
+  height: 3rem;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imglogo {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.headerfont {
+  font-family: helvetica;
+  font-size: 1rem;
+}
+
+.logostuff {
+    display: inline-flex;
+}
+
+
+.navmenu {
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   display: inline-flex;
+}
