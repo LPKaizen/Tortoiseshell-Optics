@@ -1,1 +1,12 @@
+html {
+   font-size: 18px;
+   line-height: 1.4;
+}
 
+/* beginning of header section */
+
+.sitecontainer {
+  width: 960px;
+  height: auto;
+  margin: auto;
+}
