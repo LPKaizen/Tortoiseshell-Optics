@@ -33,15 +33,21 @@ html {
 .headerfont {
   font-family: helvetica;
   font-size: 1rem;
+  color: white;
+  height: auto;
+  font-weight: bolder;
 }
 
 .logostuff {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
 }
 
 
 .navmenu {
    padding-top: 1rem;
    padding-bottom: 1rem;
-   display: inline-flex;
+   padding-right: 2rem;
+   display: flex;
+   justify-content: space-around;
 }
