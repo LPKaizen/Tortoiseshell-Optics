@@ -85,36 +85,50 @@ html {
 .adsectioncontainer {
    width: 100%;
    height: auto;
+   padding-top: 3rem;
 }
 
 .picturestorage {
   display: flex;
   justify-content: center;
-
 }
 
 .contentcontainer {
   height: 8rem;
   display: block;
   justify-content: center;
-  width: auto;
+  max-width: 5rem;
+  text-align: center;
 }
 
 .image1 {
   width: 3.5rem;
   height: auto;
+  padding-bottom: 1.5rem;
 }
 
 .image2 {
    width: 5rem;
+   padding-bottom: 1.5rem;
 }
 
 .image3 {
-  max-width: 5rem;
+   max-width: 5rem;
+   padding-bottom: 1.5rem;
 }
-
 
 #spacing {
   margin-left: 6rem;
   margin-right: 6rem;
+}
+
+.infocontainer {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+
+}
+
+.infoformat {
+  width: 35%;
 }
