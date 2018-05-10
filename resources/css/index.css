@@ -5,14 +5,22 @@ html {
 
 /* beginning of header section */
 
+.backgroundpicture {
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+  width: 100%;
+  height: 30rem;
+  margin-top: 1rem;
+}
+
 .sitecontainer {
   width: 960px;
   height: auto;
   margin: auto;
+  margin-top: -1rem;
 }
 
 .headersection {
-  margin-top: 1rem;
   width: 100%;
   background-color: cadetblue;
   height: 3rem;
@@ -36,6 +44,7 @@ html {
   color: white;
   height: auto;
   font-weight: bolder;
+  padding-right: 2rem;
 }
 
 .logostuff {
@@ -43,11 +52,54 @@ html {
     align-items: center;
 }
 
-
 .navmenu {
    padding-top: 1rem;
    padding-bottom: 1rem;
    padding-right: 2rem;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
+}
+
+/*beginning of the main section */
+
+.mainsection {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.mainheading {
+  padding-top: 10rem;
+  margin-right: -2rem;
+}
+
+.mainheadingfont {
+  font-size: 2rem;
+  font-family: helvetica;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  background-color: white;
+}
+
+.adsectioncontainer {
+   width: 100%;
+   height: auto;
+}
+
+.picturestorage {
+  display: flex;
+}
+
+.contentcontainer {
+  width: 5rem;
+  height: 8rem;
+  border: red 1px dotted;
+  display: flex;
+  justify-content: center;
+}
+
+#spacing {
+  margin-left: 6rem;
+  margin-right: 6rem;
 }
