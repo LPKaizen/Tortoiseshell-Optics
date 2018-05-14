@@ -24,6 +24,7 @@ html {
   width: 100%;
   background-color: cadetblue;
   height: 3rem;
+  margin-top: 2rem;
 }
 
 .navbar {
@@ -168,10 +169,32 @@ html {
   padding-bottom: 4rem;
   padding-left: 4rem;
   display: flex;
-
 }
 
 .blackglass {
   height: 1.5rem;
   padding-right: 1rem;
+}
+
+@media only screen and (max-width: 960px) {
+
+  .headersection {
+    margin-top: 0;
+  }
+
+ .backgroundpicture {
+    height: 22rem;
+ }
+
+ .mainheadingfont {
+   font-size: 1.33rem;
+   padding: 0.75rem 4rem;
+   background-color: white;
+ }
+
+ .mainheading {
+   padding-top: 5rem;
+   margin-right: 0;
+   padding-right: 2rem;
+ }
 }
