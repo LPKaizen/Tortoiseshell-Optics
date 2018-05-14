@@ -193,8 +193,109 @@ html {
  }
 
  .mainheading {
-   padding-top: 5rem;
-   margin-right: 0;
-   padding-right: 2rem;
+    padding-top: 5rem;
+    margin-right: 0;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .headersection {
+    margin-top: 0;
+  }
+
+ .backgroundpicture {
+    height: 17rem;
  }
+
+ .mainheadingfont {
+   font-size: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   background-color: white;
+   margin: auto;
+ }
+
+ .mainheading {
+    padding-top: 9rem;
+    width: 100%;
+
+  }
+
+.adsectioncontainer {
+  width: 480px;
+}
+  .picturestorage {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 8rem;
+    align-items: center;
+    margin-bottom: 3.77rem;
+  }
+
+  .contentcontainer {
+    height: auto;
+    display: block;
+    justify-content: center;
+    max-width: 5rem;
+    text-align: center;
+    padding-bottom: 1.54rem;
+  }
+
+  #spacing {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .image1 {
+    width: 3.5rem;
+    height: auto;
+    padding-bottom: 1.5rem;
+  }
+
+  .image2 {
+     width: 5rem;
+     padding-bottom: 1.5rem;
+  }
+
+  .image3 {
+     max-width: 5rem;
+     padding-bottom: 1.5rem;
+  }
+
+  .infocontainer {
+    width: 480px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .infotitle {
+     width: 100%;
+     padding-left: 0;
+     text-align: center;
+  }
+
+  .infoformat {
+    width: 100%;
+    padding-bottom: 4rem;
+    font-size: 0.77rem;
+  }
+
+  .moveit {
+    display: none;
+  }
+
+  .footersection {
+    width: 480px;
+  }
+
+  .footerlogo {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+
 }
